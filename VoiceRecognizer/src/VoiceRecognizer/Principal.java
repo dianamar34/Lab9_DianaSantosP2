@@ -107,7 +107,7 @@ public class Principal extends javax.swing.JFrame {
         addsearch = new javax.swing.JDialog();
         jLabel13 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        tabla1 = new javax.swing.JTable();
+        tabla2 = new javax.swing.JTable();
         Modify = new javax.swing.JDialog();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
@@ -139,6 +139,19 @@ public class Principal extends javax.swing.JFrame {
         jb_microphone_LogIn = new javax.swing.JButton();
         jt_Username_LogIn = new javax.swing.JTextField();
         jt_Password_LogIn = new javax.swing.JPasswordField();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
 
         add.setBackground(new java.awt.Color(153, 255, 102));
 
@@ -428,7 +441,7 @@ public class Principal extends javax.swing.JFrame {
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel13.setText("Buscar");
 
-        tabla1.setModel(new javax.swing.table.DefaultTableModel(
+        tabla2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -436,7 +449,7 @@ public class Principal extends javax.swing.JFrame {
                 "Username", "Nombre", "Apellido", "Edad"
             }
         ));
-        jScrollPane2.setViewportView(tabla1);
+        jScrollPane2.setViewportView(tabla2);
 
         javax.swing.GroupLayout addsearchLayout = new javax.swing.GroupLayout(addsearch.getContentPane());
         addsearch.getContentPane().setLayout(addsearchLayout);
@@ -698,6 +711,7 @@ public class Principal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("LOG IN/SIGN IN");
+        setBackground(new java.awt.Color(51, 204, 0));
         setResizable(false);
         addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
@@ -720,6 +734,87 @@ public class Principal extends javax.swing.JFrame {
         jt_Password_LogIn.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jt_Password_LogIn.setText("PASSWORD");
 
+        jPanel5.setBackground(new java.awt.Color(51, 255, 153));
+
+        jLabel25.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel25.setText("Opciones");
+
+        jLabel26.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel26.setText("Diga");
+
+        jLabel27.setText("Agregar");
+
+        jLabel28.setText("Eliminar");
+
+        jLabel29.setText("Modificar");
+
+        jLabel30.setText("Buscar");
+
+        jLabel31.setText("Video Llamada");
+
+        jLabel32.setText("add");
+
+        jLabel33.setText("delete");
+
+        jLabel34.setText("modify");
+
+        jLabel35.setText("search");
+
+        jLabel36.setText("video");
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(51, 51, 51)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel30)
+                    .addComponent(jLabel28)
+                    .addComponent(jLabel27)
+                    .addComponent(jLabel25)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel29))
+                .addGap(146, 146, 146)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel26)
+                    .addComponent(jLabel32)
+                    .addComponent(jLabel33)
+                    .addComponent(jLabel34)
+                    .addComponent(jLabel35)
+                    .addComponent(jLabel36))
+                .addContainerGap(134, Short.MAX_VALUE))
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel25)
+                    .addComponent(jLabel26))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel27)
+                    .addComponent(jLabel32))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel28)
+                    .addComponent(jLabel33))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel29)
+                    .addComponent(jLabel34))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel30)
+                    .addComponent(jLabel35))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel36))
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -727,15 +822,19 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap(508, Short.MAX_VALUE)
+                        .addContainerGap(635, Short.MAX_VALUE)
                         .addComponent(jb_microphone_LogIn))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(215, 215, 215)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jt_Password_LogIn)
                             .addComponent(jt_Username_LogIn, javax.swing.GroupLayout.DEFAULT_SIZE, 239, Short.MAX_VALUE))
-                        .addGap(0, 137, Short.MAX_VALUE)))
+                        .addGap(0, 264, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(113, 113, 113)
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jt_Password_LogIn, jt_Username_LogIn});
@@ -749,7 +848,9 @@ public class Principal extends javax.swing.JFrame {
                 .addComponent(jt_Username_LogIn, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jt_Password_LogIn, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(108, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36))
         );
 
         layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jt_Password_LogIn, jt_Username_LogIn});
@@ -792,7 +893,7 @@ public class Principal extends javax.swing.JFrame {
             Delete.pack();
             Delete.setLocationRelativeTo(this);
             Delete.setVisible(true);
-        }else if (Palabra.equals("addsearch")) {
+        }else if (Palabra.equals("search")) {
             addsearch.setModal(true);
             addsearch.pack();
             addsearch.setLocationRelativeTo(this);
@@ -850,6 +951,11 @@ public class Principal extends javax.swing.JFrame {
         model.addRow(newRow);
         tabla.setModel(model);
 
+        DefaultTableModel model2 = (DefaultTableModel) tabla2.getModel();
+        Object[] newRow1 = {(tf_username.getText()), tf_nombre.getText(), tf_apellido.getText(), tf_edad.getText()};
+        model2.addRow(newRow1);
+        tabla2.setModel(model2);
+        
         contactos.add(p);
         JOptionPane.showMessageDialog(this, "Usuario guardado exitosamente");
         
@@ -898,6 +1004,7 @@ public class Principal extends javax.swing.JFrame {
             DefaultTableModel model = (DefaultTableModel) tabla.getModel();
             model.removeRow(tabla.getSelectedRow());
             tabla.setModel(model);
+            tabla2.setModel(model);
         }
     }//GEN-LAST:event_jButton5MouseClicked
 
@@ -912,7 +1019,7 @@ public class Principal extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("windows".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -966,7 +1073,19 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -977,6 +1096,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
@@ -989,7 +1109,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JPasswordField jt_Password_LogIn;
     private javax.swing.JTextField jt_Username_LogIn;
     private javax.swing.JTable tabla;
-    private javax.swing.JTable tabla1;
+    private javax.swing.JTable tabla2;
     private javax.swing.JTextField tf_apellido;
     private javax.swing.JTextField tf_apellido1;
     private javax.swing.JTextField tf_edad;
